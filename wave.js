@@ -22,6 +22,7 @@ for (let i = 0; i < numberOfStrings; i++) {
   pathElement.setAttribute('stroke', '#555');
   pathElement.setAttribute('stroke-width', '0.5');
   pathElement.setAttribute('fill', 'none');
+  pathElement.setAttribute('vector-effect', 'non-scaling-stroke');  // Stroke width constant across screen size
   wave.appendChild(pathElement);
   pathElements.push(pathElement);
 }
