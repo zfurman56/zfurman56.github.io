@@ -19,8 +19,8 @@ let pathElements = [];
 
 for (let i = 0; i < numberOfStrings; i++) {
   let pathElement = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-  pathElement.setAttribute('stroke', 'lightgrey');
-  pathElement.setAttribute('stroke-width', '1');
+  pathElement.setAttribute('stroke', '#555');
+  pathElement.setAttribute('stroke-width', '0.5');
   pathElement.setAttribute('fill', 'none');
   wave.appendChild(pathElement);
   pathElements.push(pathElement);
